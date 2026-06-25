@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API = "http://localhost:5000/api";
+const API = "https://codevector-product-browser-ompp.onrender.com/api";
 
 function App() {
   const [products, setProducts] = useState([]);
